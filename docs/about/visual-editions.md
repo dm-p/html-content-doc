@@ -11,7 +11,7 @@ HTML Content comes in two editions. These are separate AppSource visuals, so you
 
 [View or download on AppSource](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA200001930)
 
-This edition of the visual tries to provide as much functionality as possible within the custom visual sandbox. Note that Microsoft does impose some limitations on all custom visuals, not just certified vs. uncertified ones so it is not possible to do everything. You can learn more about these limitations on the [CORS & Other Known Limitations](/reference/limitations) page.
+This edition of the visual tries to provide as much functionality as possible within the custom visual sandbox. Note that Microsoft does impose some limitations on all custom visuals, not just certified vs. uncertified ones so it is not possible to do everything. You can learn more about these limitations on the [Limitations](/docs/limitations) page.
 
 ### Lite (Certified)
 

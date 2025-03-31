@@ -26,7 +26,7 @@ Please refer to the [Visual Editions](visual-editions) page for more information
 
 The visual can't handle some aspects of HTML, due to the sandboxing rules applied by Power BI's main window. [This is detailed below](#custom-visuals-high-level) if you wish to understand further, but if you're attempting any of the following, then you're probably out of luck:
 
-- Some hyperlinks (although `http` and `https` are [supported via delegation to Power BI](/reference/properties#allow-opening-urls))
+- Some hyperlinks (although `http` and `https` are [supported via delegation to Power BI](properties-content-formatting#allow-opening-urls))
 
 - `<iframe>` elements in Desktop - reports may need to be published to the Power BI Service to be tested/viewed.
 

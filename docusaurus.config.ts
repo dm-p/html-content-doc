@@ -81,6 +81,11 @@ const config: Config = {
         },
         { to: "/blog", label: "Blog", position: "left" },
         {
+          href: "/privacy-policy",
+          label: "Privacy Policy",
+          position: "right",
+        },
+        {
           href: "https://github.com/dm-p/powerbi-visuals-html-content",
           label: "GitHub",
           position: "right",

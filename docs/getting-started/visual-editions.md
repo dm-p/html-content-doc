@@ -1,28 +1,29 @@
 ---
 sidebar_position: 1
 description: Learning about which visual to use for your Power BI use case.
+slug: /visual-editions
 ---
 
 # Visual Editions
 
 HTML Content comes in two editions. These are separate AppSource visuals, so you can download and use the one that best suits your needs.
 
+For both editions, the minimum required versions are:
+
+- Power BI Desktop: November 2022
+- Power BI Report Server: May 2023
+
 ### Regular
 
 [View or download on AppSource](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA200001930)
 
-This edition of the visual tries to provide as much functionality as possible within the custom visual sandbox. Note that Microsoft does impose some limitations on all custom visuals, not just certified vs. uncertified ones so it is not possible to do everything. You can learn more about these limitations on the [Limitations](/docs/limitations) page.
+This edition of the visual tries to provide as much functionality as possible within the custom visual sandbox. Note that Microsoft does impose some limitations on all custom visuals, not just certified vs. uncertified ones so it is not possible to do everything. You can learn more about these limitations on the [Limitations](limitations) page.
 
 ### Lite (Certified)
 
 [View or download on AppSource](https://appsource.microsoft.com/en-us/product/PowerBIVisuals/coacervolimited1596856650797.htmlcontent_certified)
 
 This edition is a reduced subset of available tags and no external comms. This is to [comply with Microsoft's certification rules](https://docs.microsoft.com/en-us/power-bi/developer/visuals/power-bi-custom-visuals-certified?WT.mc_id=DP-MVP-5003712#source-code-requirements).
-
-Minimum required versions:
-
-- Power BI Desktop: November 2022
-- Power BI Report Server: May 2023
 
 The available tags are:
 
@@ -267,7 +268,6 @@ The available tags are:
   </tr>
 </table>
 
-\* can be used with [data URLS](https://developer.mozilla.org/en-US/docs/web/http/basics_of_http/data_urls). Content cannot be loaded from remote endpoints, in order to comply with visual certification rules.
+\* can be used with [data URLs](https://developer.mozilla.org/en-US/docs/web/http/basics_of_http/data_urls). Content cannot be loaded from remote endpoints, in order to comply with visual certification rules.
 
-All [SVG](https://developer.mozilla.org/en-US/docs/Web/SVG) tags should also be supported, with the exception of `<script/>` and `<foreighObject/>
-`.
+All [SVG](https://developer.mozilla.org/en-US/docs/Web/SVG) tags should also be supported, with the exception of `<script/>` and `<foreignObject/>`.

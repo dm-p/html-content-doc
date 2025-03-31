@@ -28,3 +28,26 @@
   --ifm-color-primary-lightest: #ffd7d2;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+.profile-section {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 24px;
+}
+
+.social-links {
+  margin-left: 24px;
+  padding: 8px;
+}
+
+.social-link {
+  height: 2.5em;
+}
+
+.social-links a {
+  color: #252423;
+}
+
+.social-links a:hover {
+  text-decoration: none;
+}

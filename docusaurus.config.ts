@@ -13,11 +13,11 @@ const config: Config = {
   url: "https://html-content.com",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/html-content-doc",
+  baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "dm-p", // Usually your GitHub org/user name.
+  organizationName: "html-content-pbi", // Usually your GitHub org/user name.
   projectName: "html-content-doc", // Usually your repo name.
   trailingSlash: false,
 
@@ -40,7 +40,8 @@ const config: Config = {
           sidebarPath: "./sidebars.ts",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/dm-p/html-content-doc/tree/main",
+          editUrl:
+            "https://github.com/html-content-pbi/html-content-pbi.github.io/tree/main",
         },
         blog: {
           showReadingTime: true,
@@ -50,7 +51,8 @@ const config: Config = {
           },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/dm-p/html-content-doc/tree/main",
+          editUrl:
+            "https://github.com/html-content-pbi/html-content-pbi.github.io/tree/main",
           // Useful options to enforce blogging best practices
           onInlineTags: "warn",
           onInlineAuthors: "warn",

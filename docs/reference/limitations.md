@@ -30,7 +30,7 @@ The visual can't handle some aspects of HTML, due to the sandboxing rules applie
 
 - `<iframe>` elements in Desktop - reports may need to be published to the Power BI Service to be tested/viewed.
 
-- `<iframe>` elements that embed content from sites that block [cross origin resource sharing, or CORS (e.g. YouTube)](#cross-origin-resource-sharing-cors). We'll try and collect the ones we know to work [below](#embeddable-content-known-to-work).
+- `<iframe>` elements that embed content from sites that block [cross origin resource sharing, or CORS (e.g. YouTube)](#cross-origin-resource-sharing-cors---regular-edition-only). We'll try and collect the ones we know to work [below](#embeddable-content-known-to-work---regular-edition-only).
 
 - `<script>` tags referencing externally-hosted JavaScript.
 

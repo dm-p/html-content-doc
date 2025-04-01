@@ -38,7 +38,7 @@ Interactivity features for Power BI have been introduced, which provide some add
 - Cross-filtering
 - Context menu and drillthrough
 
-Note that these have their own considerations, depending on how you are configuring your visual, so please refer to the [Interactivity](docs/interactivity) page for more information.
+Note that these have their own considerations, depending on how you are configuring your visual, so please refer to the [Interactivity](interactivity) page for more information.
 
 ### Bugs Fixed
 

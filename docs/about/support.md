@@ -12,13 +12,13 @@ Firstly, thanks very much for using the visual! I've had a lot of feedback since
 
 HTML Content is released under the [MIT License](https://en.wikipedia.org/wiki/MIT_License) and is free of charge and [open source](https://github.com/dm-p/powerbi-visuals-html-content).
 
-The visual does its best to render whatever content you supply to it, but [there are a number of limitations imposed upon it by Power BI](/reference/limitations) that we cannot do much about. Please review this page first to determine if what you are attempting does not work for these reasons.
+The visual does its best to render whatever content you supply to it, but [there are a number of limitations imposed upon it by Power BI](limitations) that we cannot do much about. Please review this page first to determine if what you are attempting does not work for these reasons.
 
 I maintain the visual in my free time, so if you still experience issues beyond the limitations detailed above or have a particular feature request, [please create an issue in the project's GitHub repository](https://github.com/dm-p/powerbi-visuals-html-content/issues) and I will endeavour to investigate and respond as soon as possible.
 
 If you have challenges around learning or creating HTML to suit your use case then I would suggest the [Power BI Community](https://community.powerbi.com/) or [Stack Overflow](https://stackoverflow.com/questions), as there's likely already someone who has attempted to do what you're doing and these sites offer a much wider pool of (free) support.
 
-If you're still stuck after this and require dedicated support for a particular challenge, [I offer consultation services](contributors#consultation) and would be very happy to provide a quotation for any potential work.
+If you're still stuck after this and require dedicated support for a particular challenge, [I offer consultation services](contributors) and would be very happy to provide a quotation for any potential work.
 
 If you need an HTML visual with more dedicated support, I recommend you go for one of the following alternatives for Power BI:
 

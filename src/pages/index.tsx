@@ -3,7 +3,6 @@ import clsx from "clsx";
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
-import HomepageFeatures from "@site/src/components/HomepageFeatures";
 import Heading from "@theme/Heading";
 
 import styles from "./index.module.css";
@@ -11,18 +10,61 @@ import styles from "./index.module.css";
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <header className={clsx("hero hero--primary", styles.heroBanner)}>
+    <header className={clsx("hero", styles.heroBanner)}>
       <div className="container">
         <Heading as="h1" className="hero__title">
-          {siteConfig.title}
+          {siteConfig.tagline}
         </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          {/* <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
-          </Link> */}
+        <div className={styles.visualProducts}>
+          <div className={styles.visualProduct}>
+            <div className={styles.productLogo}>
+              <img src="img/logo-regular.png" />
+            </div>
+            <div className={styles.productTitle}>HTML Content</div>
+            <div className={styles.productSubtitle}>
+              Use raw data or DAX to generate HTML and SVG on the Power BI
+              report canvas.
+            </div>
+          </div>
+          <div className={styles.visualProduct}>
+            <div className={styles.productLogo}>
+              <img src="img/logo-certified.png" />
+            </div>
+            <div className={styles.productTitle}>HTML Content (lite) 🏅</div>
+            <div className={styles.productSubtitle}>
+              A focused subset of HTML and SVG, with the benefits of Microsoft
+              certification.
+            </div>
+          </div>
+        </div>
+        <div className={styles.bannerOptions}>
+          <div>
+            <Link
+              className="button button--secondary button--outline button--lg"
+              to="docs/visual-editions"
+            >
+              Learn more
+            </Link>
+          </div>
+          <div>
+            <Link
+              className="button button--secondary button--outline button--lg"
+              to="docs/simple-example"
+            >
+              Get started
+            </Link>
+          </div>
+          <div>
+            <span className={styles.indexCtasGitHubButtonWrapper}>
+              <iframe
+                className={styles.indexCtasGitHubButton}
+                src="https://ghbtns.com/github-btn.html?user=dm-p&amp;repo=powerbi-visuals-html-content&amp;type=star&amp;count=true&amp;size=large"
+                width={150}
+                height={30}
+                title="GitHub Stars"
+              />
+            </span>
+          </div>
         </div>
       </div>
     </header>
@@ -33,13 +75,11 @@ export default function Home(): ReactNode {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`${siteConfig.title}: ${siteConfig.tagline}`}
+      title={`${siteConfig.title} - ${siteConfig.tagline}`}
       description="Description will go into a meta tag in <head />"
     >
       <HomepageHeader />
-      <main>
-        <HomepageFeatures />
-      </main>
+      <main></main>
     </Layout>
   );
 }

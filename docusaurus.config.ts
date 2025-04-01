@@ -6,8 +6,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
   title: "HTML Content",
-  tagline:
-    "Visualize column or measure values as HTML in your Power BI reports.",
+  tagline: "Generate rich, dynamic content in your Power BI reports",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
@@ -59,6 +58,10 @@ const config: Config = {
         },
         theme: {
           customCss: "./src/css/custom.css",
+        },
+        gtag: {
+          trackingID: "G-8BPRENKBZR",
+          anonymizeIP: true,
         },
       } satisfies Preset.Options,
     ],

@@ -301,7 +301,7 @@ The reason for this is that custom visuals are protected from opening hyperlinks
 
 However, custom visuals can request that Power BI open a URL on their behalf. The visual has an [**Allow opening URLs**](properties-content-formatting#allow-opening-urls) property, which if set to **On**, will delegate the request to open the hyperlink to Power BI. If permitted, this will prompt the user for confirmation, e.g.:
 
-![url-valid-protocol.png](../resources/images/properties/url-valid-protocol.png "Enabling the Allow Opening URLs property will prompt the user for consent if a hyperlink is clicked.")
+![url-valid-protocol.png](../reference/images/properties/url-valid-protocol.png "Enabling the Allow Opening URLs property will prompt the user for consent if a hyperlink is clicked.")
 
 :::warning Always Verify Hyperlinks
 While the raw URL is displayed, the user should still exercise caution on navigating to unknown sources.

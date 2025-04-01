@@ -270,4 +270,4 @@ The available tags are:
 
 \* can be used with [data URLs](https://developer.mozilla.org/en-US/docs/web/http/basics_of_http/data_urls). Content cannot be loaded from remote endpoints, in order to comply with visual certification rules.
 
-All [SVG](https://developer.mozilla.org/en-US/docs/Web/SVG) tags should also be supported, with the exception of `<script/>` and `<foreignObject/>`.
+All [SVG](https://developer.mozilla.org/en-US/docs/Web/SVG) tags should also be supported, with the exception of `<use/>`, `<script/>` and `<foreignObject/>`.

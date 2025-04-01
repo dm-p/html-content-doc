@@ -71,6 +71,7 @@ const config: Config = {
       logo: {
         alt: "My Site Logo",
         src: "img/banner.svg",
+        srcDark: "img/banner-dark.svg",
       },
       items: [
         {
@@ -80,6 +81,11 @@ const config: Config = {
           label: "Docs",
         },
         { to: "/blog", label: "Blog", position: "left" },
+        {
+          href: "https://github.com/sponsors/dm-p",
+          label: "Sponsor",
+          position: "right",
+        },
         {
           href: "/privacy-policy",
           label: "Privacy Policy",
@@ -94,47 +100,7 @@ const config: Config = {
     },
     footer: {
       style: "dark",
-      links: [
-        // {
-        //   title: "Docs",
-        //   items: [
-        //     {
-        //       label: "Tutorial",
-        //       to: "/docs/intro",
-        //     },
-        //   ],
-        // },
-        // {
-        //   title: "Community",
-        //   items: [
-        //     {
-        //       label: "Stack Overflow",
-        //       href: "https://stackoverflow.com/questions/tagged/docusaurus",
-        //     },
-        //     {
-        //       label: "Discord",
-        //       href: "https://discordapp.com/invite/docusaurus",
-        //     },
-        //     {
-        //       label: "X",
-        //       href: "https://x.com/docusaurus",
-        //     },
-        //   ],
-        // },
-        // {
-        //   title: "More",
-        //   items: [
-        //     {
-        //       label: "Blog",
-        //       to: "/blog",
-        //     },
-        //     {
-        //       label: "GitHub",
-        //       href: "https://github.com/facebook/docusaurus",
-        //     },
-        //   ],
-        // },
-      ],
+      links: [],
       copyright: `HTML Content and HTML Content (lite) are released under the MIT License.`,
     },
     prism: {

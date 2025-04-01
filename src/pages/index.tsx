@@ -18,7 +18,15 @@ function HomepageHeader() {
         <div className={styles.visualProducts}>
           <div className={styles.visualProduct}>
             <div className={styles.productLogo}>
-              <img src="img/logo-regular.png" />
+              <a
+                href="https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA200001930"
+                target="_blank"
+              >
+                <img
+                  src="img/logo-regular.png"
+                  title="Get it from Microsoft AppSource"
+                />
+              </a>
             </div>
             <div className={styles.productTitle}>HTML Content</div>
             <div className={styles.productSubtitle}>
@@ -28,7 +36,15 @@ function HomepageHeader() {
           </div>
           <div className={styles.visualProduct}>
             <div className={styles.productLogo}>
-              <img src="img/logo-certified.png" />
+              <a
+                href="https://appsource.microsoft.com/en-us/product/PowerBIVisuals/coacervolimited1596856650797.htmlcontent_certified"
+                target="_blank"
+              >
+                <img
+                  src="img/logo-certified.png"
+                  title="Get it from Microsoft AppSource"
+                />
+              </a>
             </div>
             <div className={styles.productTitle}>HTML Content (lite) 🏅</div>
             <div className={styles.productSubtitle}>
@@ -43,7 +59,7 @@ function HomepageHeader() {
               className="button button--secondary button--outline button--lg"
               to="docs/visual-editions"
             >
-              Learn more
+              Compare editions
             </Link>
           </div>
           <div>

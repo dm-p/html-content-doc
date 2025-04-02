@@ -10,6 +10,18 @@ The **Content formatting** property menu can be used to manage some aspects of t
 
 ## Behavior
 
+### Renderer
+
+:::note This Change is Pending Approval and Deployment of Version 1.6
+:::
+
+You have a choice of renderer for your content, either **HTML** or **Markdown**.
+
+- **HTML** is the default and is the typical renderer that most people will need.
+- **Markdown** will treat the content as markdown before further applying HTML rendering.
+- The renderer will cover Markdown 1.0, and most of GitHub Flavored Markdown and CommonMark. You can review the [renderer documentation (Marked)](https://marked.js.org/#specifications) to see what might not work.
+- Anything that looks like valid HTML after markdown pre-processing will be rendered using the HTML renderer. If using HTML Content (lite), this will be sanitized as normal.
+
 ### Show raw HTML
 
 By default, the visual will attempt to render any content in the **Values** data role. However, if you want to check the generated HTML, you can enable this to confirm everything is as intended, e.g.:

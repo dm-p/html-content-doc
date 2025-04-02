@@ -6,6 +6,20 @@ slug: /change-log
 
 # Change Log
 
+## 1.6.0 (Pending Approval)
+
+:::info Pending Approval
+This is currently being submitted to AppSource. We'll remove this message when it has been approved.
+:::
+
+### Markdown Rendering
+
+You can now specify whether to render your content using HTML (Default) or Markdown. Refer to the [Content Formatting](properties-content-formatting#renderer) page to read more about this.
+
+### Bugs Fixed
+
+- Fixed an issue in HTML sanitization where the `<feDisplacementMap/>` SVG tag was not being correctly processed.
+
 ## 1.5.0 (2024-04-29)
 
 ### Minor Enhancements
